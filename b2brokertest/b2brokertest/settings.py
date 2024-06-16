@@ -39,7 +39,7 @@ DJANGO_DEFAULT_APPS = [
     'django.contrib.staticfiles',
 ]
 
-PROJECT_APPS = ['api', ]
+PROJECT_APPS = ['rest_framework', 'api']
 
 INSTALLED_APPS = DJANGO_DEFAULT_APPS + PROJECT_APPS
 
